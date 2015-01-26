@@ -1,7 +1,7 @@
 class Zombie
 	attr_accessor :name, :brains
 
-	def initialzie
+	def initialize
 		@name = 'Ash'
 		@brains = 0
 	end
